@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: '{{ (parameters.repoName | lower | replaceAll " " "-" | replaceAll "_" "-" ) }}'
+  name: test
   description: Sample service created from Backstage template
   tags:
     - sample
